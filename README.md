@@ -30,13 +30,13 @@ For this project, we start by examining the tennis dataset to gain insights into
 #### **1.1 Datatypes Overview**
 ![Datatypes Overview](images/Picture1.png)
 
-### **1.2 Missing Values**
+#### **1.2 Missing Values**
 ![Missing Values](images/Picture2.png)
 
 ### **2. Parsing Issues Analysis**
 To understand the reasons behind missing and incorrect data during parsing, we analyzed the OddsPortal webpage. Below is a screenshot of the parsed page.
 
-### **2.1 Parsing Issues Analysis**
+#### **2.1 Parsing Issues Analysis**
 ![OddsPortal Page Analysis](images/Picture3.png)
 
 From the screenshot, we can immediately observe the following:
@@ -54,7 +54,7 @@ After identifying missing and incorrect values in the dataset, the following cle
 
 Below is a screenshot demonstrating these cleaning steps:
 
-### **3.1 Data Cleaning Process**
+#### **3.1 Data Cleaning Process**
 ![Data Cleaning Process](images/Picture4.png)
 
 ### **4. Feature Engineering: Creating New Columns**
@@ -66,7 +66,7 @@ The next step involves feature engineering to prepare the dataset for analysis. 
 
 Below is a screenshot demonstrating these feature engineering steps:
 
-### **4.1 Feature Engineering: Creating Sets and Winners Columns**
+#### **4.1 Feature Engineering: Creating Sets and Winners Columns**
 ![Feature Engineering: Sets and Winners](images/Picture5.png)
 
 ### **5. Profit Analysis and Visualization for Tennis**
@@ -80,15 +80,15 @@ After preparing the dataset, we moved on to analyzing the player's profit if the
 
 Below is a screenshot of the code used for profit analysis and visualization:
 
-### **5.1 Columns Creation and Visualization Code**
+#### **5.1 Columns Creation and Visualization Code**
 ![Profit Analysis and Visualization](images/Picture6.png)
 
-### **5.2 Betting on Player 1**
+#### **5.2 Betting on Player 1**
 ![Cumulative Profit Graph for Player 1 (Tennis)](images/Picture7.png)
 
 This graph demonstrates the cumulative profit if a player consistently bets $1 on Player 1 across the dataset. The results show that over 7,530 matches, the total loss amounts to more than $1,000.
 
-### **5.3 Betting on Player 2**
+#### **5.3 Betting on Player 2**
 ![Cumulative Profit Graph for Player 2 (Tennis)](images/Picture8.png)
 
 This graph illustrates the cumulative profit when consistently betting $1 on opponents (Player 2). The results are slightly better than betting on Player 1, but the total loss is still around $1,000
@@ -99,15 +99,15 @@ Similar to the process for tennis, we applied the same steps for soccer, includi
 
 Below are the results of these analyses:
 
-### **6.1 Columns Creation and Visualization Code**
+#### **6.1 Columns Creation and Visualization Code**
 ![Cumulative Profit Graph for Home Win (Soccer)](images/Picture9.png)
 
-### **6.2 Betting on Draw (X)**
+#### **6.2 Betting on Draw (X)**
 ![Cumulative Profit Graph for Draw (Soccer)](images/Picture10.png)
 
 This graph demonstrates the cumulative profit when consistently betting $1 on a draw result. As seen, this strategy also results in a consistent loss over the dataset.
 
-### **6.3 Betting on Away Win (2)**
+#### **6.3 Betting on Away Win (2)**
 !Cumulative Profit Graph for Away Win (Soccer)](images/Picture11.png)
 
 This graph demonstrates the cumulative profit when consistently betting $1 on a draw result. As seen, this strategy also results in a consistent loss over the dataset.
