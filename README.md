@@ -32,7 +32,7 @@ For this project, we start by examining the tennis dataset to gain insights into
 ### **1. Datatypes Overview**
 ![Datatypes Overview](images/Picture1.png)
 
-### **2. Missing Values **
+### **2. Missing Values**
 ![Missing Values](images/Picture2.png)
 
 
