@@ -5,7 +5,7 @@ This project focuses on analyzing the profitability of betting strategies for tw
 - **1-2 market** for tennis, where only two outcomes are possible (Player 1 wins or Player 2 wins).
 - **1-X-2 market** for soccer, which includes three possible outcomes (Home win, Draw, Away win).
 
-The analysis pipeline begins with **data cleaning** and progresses through **exploratory data analysis (EDA)**, **visualization**, and ultimately to **profitability evaluation**. The primary goal is to evaluate the potential profitability of different betting strategies based on historical odds data.
+The analysis pipeline begins with **exploratory data analysis (EDA)** and progresses through **data cleaning**, **feature engineering**, **visualization**, and ultimately to **profitability evaluation**. The primary goal is to evaluate the potential profitability of different betting strategies based on historical odds data.
 
 All data parsing and collection steps have been completed using the scripts `soccer.py` and `tennis.py`, which are available in the repository. The parsed data is stored in the `data/` folder. This README focuses solely on the analysis process.
 
@@ -22,7 +22,7 @@ Now, let's dive into the **analysis process**, starting with preparing the datas
 
 ---
 
-### **1. Data Cleaning and Preprocessing**
+### **1. Initial Data Exploration and Preprocessing**
 The first step in the analysis process is cleaning and preparing the dataset. Ensuring the data is structured and free from errors is crucial for reliable analysis. 
 
 For this project, we start by examining the tennis dataset to gain insights into its structure, detect missing values, and identify potential issues. Below are two screenshots that illustrate the initial exploration of the dataset, including data types and missing values. Based on this examination, we will determine the best approach for handling these issues and preparing the data for further analysis.
