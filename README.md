@@ -108,7 +108,7 @@ Below are the results of these analyses:
 This graph demonstrates the cumulative profit when consistently betting $1 on a draw result. As seen, this strategy also results in a consistent loss over the dataset.
 
 #### **6.3 Betting on Away Win (2)**
-!Cumulative Profit Graph for Away Win (Soccer)](images/Picture11.png)
+![Cumulative Profit Graph for Away Win (Soccer)](images/Picture11.png)
 
 This graph demonstrates the cumulative profit when consistently betting $1 on a draw result. As seen, this strategy also results in a consistent loss over the dataset.
 
