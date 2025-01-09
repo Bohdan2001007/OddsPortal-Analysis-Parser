@@ -105,12 +105,12 @@ Below are the results of these analyses:
 The graph below shows the cumulative profit for consistently betting $1 on the home team to win. The results indicate a loss of slightly more than **$1,000** over the dataset.
 
 
-#### **6.2 Betting on Draw (X)**
+#### **6.2 Betting on Away Win (X)**
 ![Cumulative Profit Graph for Away (Soccer)](images/Picture10.png)
 
 This graph represents the cumulative profit for consistently placing $1 bets on Player 2 (opponents). While the results are slightly better compared to betting on Player 1, the strategy still resulted in a total loss of approximately **$1,000**.
 
-#### **6.3 Betting on Away Win (2)**
+#### **6.3 Betting on Draw (X)**
 ![Cumulative Profit Graph for Away Win (Soccer)](images/Picture11.png)
 
 Finally, this graph demonstrates the cumulative profit when consistently betting $1 on a draw result. The analysis reveals a significant loss exceeding **$2,500**.
