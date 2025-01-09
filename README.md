@@ -29,3 +29,11 @@ The first step in the analysis process is cleaning and preparing the dataset. En
 
 For this project, we start by examining the tennis dataset to gain insights into its structure, detect missing values, and identify potential issues. Below are two screenshots that illustrate the initial exploration of the dataset, including data types and missing values. Based on this examination, we will determine the best approach for handling these issues and preparing the data for further analysis.
 
+### **1. Datatypes Overview**
+![Datatypes Overview](images/Picture1.png)
+
+### **2. Missing Values **
+![Missing Values](images/Picture2.png)
+
+
+
