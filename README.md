@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # OddsPortal-Analysis-Parser
 =======
 # **Profitability Analysis of Betting Strategies Using OddsPortal Data**
@@ -30,8 +29,3 @@ The first step in the analysis process is cleaning and preparing the dataset. En
 
 For this project, we start by examining the tennis dataset to gain insights into its structure, detect missing values, and identify potential issues. Below are two screenshots that illustrate the initial exploration of the dataset, including data types and missing values. Based on this examination, we will determine the best approach for handling these issues and preparing the data for further analysis.
 
-
-
-
-
->>>>>>> 05e362e03514c28715a4b3b6f388230f714fcf71
