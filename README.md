@@ -70,7 +70,7 @@ Below is a screenshot demonstrating these feature engineering steps:
 ![Feature Engineering: Sets and Winners](images/Picture5.png)
 
 ### **5. Profit Analysis and Visualization for Tennis**
-After preparing the dataset, we moved on to analyzing the player's profit if they consistently bet on the same outcome across the entire dataset.
+After preparing the dataset, we moved on to analyzing the player's profit if they consistently bet on the same outcome across the entire dataset. The tennis dataset consisted of **7,530 matches**, providing a solid basis for analyzing betting strategies.
 
 **Steps involved:**
 1. Created a `profit` column to calculate the player's profit for each match.
@@ -86,7 +86,7 @@ Below is a screenshot of the code used for profit analysis and visualization:
 #### **5.2 Betting on Player 1**
 ![Cumulative Profit Graph for Player 1 (Tennis)](images/Picture7.png)
 
-This graph demonstrates the cumulative profit if a player consistently bets $1 on Player 1 across the dataset. The results show that over 7,530 matches, the total loss amounts to more than $1,000.
+This graph represents the cumulative profit for a player consistently placing $1 bets on Player 1 across the dataset. The strategy resulted in a total loss exceeding **$1,000**.
 
 #### **5.3 Betting on Player 2**
 ![Cumulative Profit Graph for Player 2 (Tennis)](images/Picture8.png)
@@ -95,22 +95,25 @@ This graph illustrates the cumulative profit when consistently betting $1 on opp
 
 ### **6. Profit Analysis and Visualization for Soccer**
 
-Similar to the process for tennis, we applied the same steps for soccer, including data cleaning, feature engineering, and visualization. This involved:
+Similar to the process for tennis, we applied the same steps for soccer, including data cleaning, feature engineering, and visualization. The soccer dataset consisted of **16,788 matches**, providing a larger sample for analysis. 
 
 Below are the results of these analyses:
 
-#### **6.1 Columns Creation and Visualization Code**
+#### **6.1 Betting on Home Win (1)**
 ![Cumulative Profit Graph for Home Win (Soccer)](images/Picture9.png)
 
-#### **6.2 Betting on Draw (X)**
-![Cumulative Profit Graph for Draw (Soccer)](images/Picture10.png)
+The graph below shows the cumulative profit for consistently betting $1 on the home team to win. The results indicate a loss of slightly more than **$1,000** over the dataset.
 
-This graph demonstrates the cumulative profit when consistently betting $1 on a draw result. As seen, this strategy also results in a consistent loss over the dataset.
+
+#### **6.2 Betting on Draw (X)**
+![Cumulative Profit Graph for Away (Soccer)](images/Picture10.png)
+
+This graph represents the cumulative profit for consistently placing $1 bets on Player 2 (opponents). While the results are slightly better compared to betting on Player 1, the strategy still resulted in a total loss of approximately **$1,000**.
 
 #### **6.3 Betting on Away Win (2)**
 ![Cumulative Profit Graph for Away Win (Soccer)](images/Picture11.png)
 
-This graph demonstrates the cumulative profit when consistently betting $1 on a draw result. As seen, this strategy also results in a consistent loss over the dataset.
+Finally, this graph demonstrates the cumulative profit when consistently betting $1 on a draw result. The analysis reveals a significant loss exceeding **$2,500**.
 
 
 
