@@ -1,5 +1,3 @@
-# OddsPortal-Analysis-Parser
-=======
 # **Profitability Analysis of Betting Strategies Using OddsPortal Data**
 
 ## **Project Overview**
@@ -47,6 +45,43 @@ From the screenshot, we can immediately observe the following:
 3. Upon analyzing the parsed page, it is clear that some tournaments feature two matches starting simultaneously in the same country and tournament. 
 
 **Conclusion:** The parser failed to capture consecutive events occurring at the same time within a single tournament. To address this issue, the missing values can be filled using the last valid values from the dataset.
+
+### **3. Data Cleaning: Handling Missing Values**
+After identifying missing and incorrect values in the dataset, the following cleaning steps were performed:
+1. Converted the `date` column to a standard datetime format.
+2. Forward-filled missing values in the `date`, `country`, and `league` columns.
+3. Removed the `draw_odds` column, as draws are not applicable in tennis matches.
+
+Below is a screenshot demonstrating these cleaning steps:
+
+### **3.1 Data Cleaning Process**
+![Data Cleaning Process](images/Picture4.png)
+
+### **4. Feature Engineering: Creating New Columns**
+The next step involves feature engineering to prepare the dataset for analysis. This includes:
+
+1. Removing rows with missing values in the `score` column, as these cannot be analyzed.
+2. Splitting the `score` column into two new columns: `sets_player1` and `sets_player2`, representing the number of sets won by each player.
+3. Creating two additional columns, `winner_player1` and `winner_player2`, to identify the winner of each match based on the set scores.
+
+Below is a screenshot demonstrating these feature engineering steps:
+
+### **4.1 Feature Engineering: Creating Sets and Winners Columns**
+![Feature Engineering: Sets and Winners](images/Picture5.png)
+
+### **5. Profit Analysis and Visualization**
+After preparing the dataset, we moved on to analyzing the player's profit if they consistently bet on the same outcome across the entire dataset.
+
+**Steps involved:**
+1. Created a `profit` column to calculate the player's profit for each match.
+2. Added a `cumulative_profit` column to track the total profit, used for plotting the graph.
+3. Reset the index after removing rows to ensure proper visualization.
+4. Defined a custom function to format Y-axis values with a `$` symbol for better readability.
+
+Below is a screenshot of the code used for profit analysis and visualization:
+
+### **5.1 Columns Creation and Visualization Code**
+![Profit Analysis and Visualization](images/Picture6.png)
 
 
 
