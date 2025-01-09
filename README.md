@@ -118,15 +118,3 @@ Finally, this graph demonstrates the cumulative profit when consistently betting
 ## **7. Conclusion**
 
 The analysis clearly demonstrates that betting on outcomes in both tennis and soccer is consistently unprofitable over the long term. Regardless of the chosen strategy — whether betting on Player 1, Player 2, home wins, draws, or away wins — all approaches resulted in significant cumulative losses.
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> a6410db190348780b51f788719dc9d9d51831fb1
