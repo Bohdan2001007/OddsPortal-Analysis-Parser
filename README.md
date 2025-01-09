@@ -115,6 +115,10 @@ This graph represents the cumulative profit for consistently placing $1 bets on 
 
 Finally, this graph demonstrates the cumulative profit when consistently betting $1 on a draw result. The analysis reveals a significant loss exceeding **$2,500**.
 
+## **7. Conclusion**
+
+The analysis clearly demonstrates that betting on outcomes in both tennis and soccer is consistently unprofitable over the long term. Regardless of the chosen strategy—whether betting on Player 1, Player 2, home wins, draws, or away wins — all approaches resulted in significant cumulative losses.
+
 
 
 
